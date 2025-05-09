@@ -6,11 +6,11 @@ In this project you will finish an application that provides a general estimate 
 4. There are two logic errors in setting up the global constants. Locate and fix those errors. 
 5. Go to calcTotal() function. To guard against users entering a zero or a negative value for the estimated weight, place the statement totalCost += wgtBox.value * COST_PER_LB; with a try catch statement that does the following
 
-    Tests whether wgtBox.value is not greater than 0 by using the expression ! (wgtBox.Value > 0). If that expression is true, throw an exception with the error message “!! Enter a positive weight”
+     - Tests whether wgtBox.value is not greater than 0 by using the expression ! (wgtBox.Value > 0). If that expression is true, throw an exception with the error message “!! Enter a positive weight”
 
-    If no exception is thrown then run the command totalCost +=wgtBox.value * COST_PER_LB;.
+    - If no exception is thrown then run the command totalCost +=wgtBox.value * COST_PER_LB;.
    
-    If an exception is caught, set the value of msgBox.innerHTML to the error message you defined for the thrown exception.
+    - If an exception is caught, set the value of msgBox.innerHTML to the error message you defined for the thrown exception.
    
 7. Repeat Step 5, for the estimated distance cost using distBox.value. Throw the error message “!! Enter a positive milage” for a caught exception. 
 8. Save your changes to the file. 
