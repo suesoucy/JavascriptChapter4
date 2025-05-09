@@ -1,1 +1,11 @@
+In this project you have been given a program that generates a random Jane Austen quote each time a page reloads. The application calls the following function to generate a random integer used in picking the quote from an array of quotes: randomINT(lowest, highest) where lowest is the lowest integer in the range and highest is the highest integer. Thus the statement randomINT(0,5) will generate a randomly selected integer from 0 up to 5 (Including both 0 and 5). However there are several bugs in the application that need to be fixed before the page will work properly. Figure 4-31 shows a preview of the page with a randomly selected quote. 
+
+1. Use your code editor to open the project04-02_txt.html and project04-02_txt.js files from the js04 project02 folder. Enter your name and the date in the comments section of each file and save them as project04-02.html and project04-02.js.
+2. Go to the project04-02.html file in your code editor and in the head section add a script element to load the project04-02.js file, deferring the loading of the JavaScript source file until the entire HTML file is loaded. Study the contents of the HTML file and save your changes. 
+3. Go to the project04-02.js file in your code editor. At the top of the file insert a command to have the JavaScript interpreter parse the code using strict standards. 
+4. Save your changes to the file and then load the project04-02.html in your web browser.
+5. Use the debugger to locate the syntax and runtime errors within the document. Fix the errors using your code editor. 
+6. Once you have fixed the syntax and runtime errors, continually reload the webpage. Each time the page is loaded, a Jane Austen quote is randomly selected from the array. Occasionally, an undefined value appears where the quote should be. Find the source of this logic error by setting a breakpoint at line 48 and watch the values of the randomQuote and quotes(randomQuote) expression. What are their values that result in an undefined quote?
+7. Return to the code editor and fix the program to remove the logic error.
+8. Return to the project04-02.html file in your web browser and continually reload it to verify that the undefined quote no longer appears. 
 
